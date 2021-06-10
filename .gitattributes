@@ -1,0 +1,2 @@
+# convert every file to LF (as opposed to CRLF)
+* text eol=lf

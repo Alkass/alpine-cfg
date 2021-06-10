@@ -1,0 +1,7 @@
+{
+	"user": "root",
+	"port": 22,
+	"logs": "artifacts/logs",
+	"cache": "artifacts/cache",
+	"installer": "apk add"
+}

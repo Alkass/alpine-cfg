@@ -1,0 +1,15 @@
+#!/bin/ash
+
+set -e
+
+# Enable Bash as the default login shell.
+sed -i "s/\/ash/\/bash/g" /etc/passwd
+
+# Delete ~/.ash_history as it's no longer needed.
+rm -f ~/.ash_history
+
+# TODO: Migrate/create ~/.bashrc
+
+# Create ~/.inputrc
+## Enable ignore-case when hitting the tab button.
+echo "set completion-ignore-case on" > ~/.inputrc

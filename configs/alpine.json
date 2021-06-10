@@ -1,0 +1,16 @@
+{
+	"recipes": [
+		{
+			"name": "apk"
+		},
+		{
+			"name": "terminal"
+		},
+		{
+			"name": "devtools"
+		},
+		{
+			"name": "misc"
+		}	
+	]
+}

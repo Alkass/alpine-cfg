@@ -1,0 +1,11 @@
+#!/bin/ash
+
+set -e
+
+cp /etc/apk/repositories /etc/apk/repositories.backup
+
+# Uncomment all repositories in /etc/apk/repositories.
+sed -i "s/^#//g" /etc/apk/repositories
+
+apk update
+apk upgrade

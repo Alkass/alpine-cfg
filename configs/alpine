@@ -1,0 +1,9 @@
+# NOTE: _USER and _PORT are defaulted to root and 22.
+# So, they need not be specified unless they're different.
+
+export RECIPES=(APK TERMINAL DEVTOOLS MISC)
+
+export APK=192.168.86.242
+export TERMINAL=192.168.86.242
+export DEVTOOLS=192.168.86.242
+export MISC=192.168.86.242
